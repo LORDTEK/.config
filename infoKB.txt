@@ -31,6 +31,8 @@ capslock + shift + k = "to": [ { "mouse_key": { "vertical_wheel": -256 } } ]
 capslock + shift + h = "to": [ { "mouse_key": { "horizontal_wheel": 256 } } ]
 capslock + shift + l = "to": [ { "mouse_key": { "horizontal_wheel": -256 } } ]
 
+capslock + shift + return_or_enter = {"pointing_button":"button1"}
+
 
 
 name:{"apple_vendor_top_case_key_code":"keyboard_fn"}

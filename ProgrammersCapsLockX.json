@@ -653,6 +653,30 @@
                 "name": "ProgrammerTR_Shorts",
                 "value": 1
             } ]
+        },
+        {
+            "description": "return_or_enter+shift=pointing_button:button1",
+            "type": "basic",
+            "from": {
+                "key_code": "return_or_enter",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ],
+                    "mandatory": [
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": {
+                "pointing_button": "button1",
+                "lazy": true
+            },
+            "conditions": [ {
+                "type": "variable_if",
+                "name": "ProgrammerTR_Shorts",
+                "value": 1
+            } ]
         } ]
     } ]
 }
